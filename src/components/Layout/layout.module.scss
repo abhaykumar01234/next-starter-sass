@@ -1,0 +1,28 @@
+@import "../../styles/vars";
+
+.parent {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  min-height: 100vh;
+}
+
+.parent > * {
+  padding: 1rem 5vw;
+  background: var(--bg-color);
+  color: var(--text-color);
+}
+
+.parent {
+  header,
+  footer {
+    background-color: lightblue;
+    color: #262626;
+  }
+
+  footer input[type="checkbox"] {
+    transform: scale(2);
+    margin-left: 1rem;
+    border: none;
+    outline: none;
+  }
+}

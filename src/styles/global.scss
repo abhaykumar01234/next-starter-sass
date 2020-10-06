@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@import "fluid";
+
+body {
+  background: #f5f5f5;
+}
+
+p {
+  font-size: 1.5em;
+}
